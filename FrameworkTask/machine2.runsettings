@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+	<Parameter name="NumberOfInstances" value="4" />
+    <Parameter name="OperatingSystem" value="free" />
+    <Parameter name="ProvisioningModel" value="regular" />
+    <Parameter name="Series" value="n1" />
+    <Parameter name="MachineType" value="CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8" />
+    <Parameter name="NumberOfGPUs" value="1" />
+    <Parameter name="GPUType" value="NVIDIA_TESLA_V100" />
+    <Parameter name="LocalSSD" value="2" />
+    <Parameter name="DatacenterLocation" value="europe-west10" />
+    <Parameter name="CommittedUsage" value="1" />
+  </TestRunParameters>
+</RunSettings> 
