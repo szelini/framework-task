@@ -5,6 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  
+	<PropertyGroup>
+    <RunSettingsFilePath>$(MSBuildProjectDirectory)\machine1.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
 
   <ItemGroup>
     <None Remove="machine1.runsettings" />
